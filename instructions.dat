@@ -1,0 +1,10 @@
+35 00 05 00       # load dm0 into r5
+35 00 10 04       # load dm4 into r10
+00 05 10 13 00 32 # add r5 and r10 into r13
+43 00 13 12       # store r13 into dm 12
+00 05 10 13 00 34 # sub r5 and r10 into r13
+43 00 13 16       # store r13 at dm20
+00 05 10 13 00 36 # and r5 and r10 into r13
+43 00 13 20       # store r13 at dm24
+00 05 10 13 00 37 # or r5 and r10 into r13
+43 00 13 24       # store r1 at dm28
